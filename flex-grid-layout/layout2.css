@@ -2,25 +2,142 @@ body {
     max-width: 1000px;
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1px;
 }
 
-.section {
+.section1 {
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
-    height: 500px;
+    height: 600px;
+    color: #ffffff;
 }
 
-.left-section {
+.section1-text {
     background-color: #0C3B2E;
-    color: #ffffff;
-    padding: 60px 40px;
+    padding: 60px 50px;
 }
 
 .heading {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 24px;
 }
 
 img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.location {
+    margin: 80px 0px 40px 0px;
+}
+
+button {
+    color: #000000;
+    background-color: #ffba00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    width: fit-content;
+    height: fit-content;
+}
+
+.section2 {
+    padding: 50px;
+    color: #ffffff;
+    background-color: #6D9773;
+}
+
+.section2-text {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+
+.section3 {
+    padding: 40px 0px;
+    background-color: #FFBA00;
+}
+
+.heading2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 80px;
+    text-align: center;
+}
+
+.speaker-img {
+    width: 100%;
+    height: 230px;
+}
+
+.speaker-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.speaker-detail {
+    padding: 20px;
+}
+
+.date {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.section4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #6D9773;
+    color: #ffffff;
+}
+
+.section4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.sponsors {
+    display: grid;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.section5 {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    color: #ffffff;
+}
+
+.section5-text {
+    background-color: #0C3B2E;
+    padding: 60px 50px;
+    display: grid;
+    gap: 40px;
+}
+
+.contact {
+    font-size: 20px;
+    display: grid;
+    gap: 4px;
+}
+
+.paragraph {
+    font-size: 18px;
 }
